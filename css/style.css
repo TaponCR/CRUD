@@ -1,0 +1,113 @@
+
+.page-header{
+	background-color: white;
+	text-align: center;
+  height: 50px;
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 2px;
+ margin-bottom: 2px;
+  border-radius: 50px 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px 2px;
+  background-color: #DCDCDC;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color:white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1{
+	width: 750px;
+}
+
+.item2{
+	width: 550px;
+	margin-right: 0px;
+	margin-left: 30px;
+}
+
+table,th, td {
+  width: 700px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  color: black;
+ 
+  text-align: center;
+  padding: 1px;
+  font-size: 15px;
+}
+
+h4{
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+form{
+  border: 3px solid black;
+  padding: 5px 5px 5px 5px;
+  border-style: double;
+  margin-right: 20px;
+  margin-left: 18px;
+}
+.form-group{
+	color: black;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: Verdana;
+}
+
+button{
+	width: 320px;
+}
+
+.pagination {
+  display: inline-block;
+  background-color: red;
+  margin-left: 520px;
+  border-radius: 50px 15px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 0px solid #ddd;
+
+}
+
+.pagination a.active {
+  background-color: green;
+  color: white;
+ border-radius: 50px 15px;
+
+}
+
+.pagination a:hover:not(.active)
+ {
+  background-color: green;
+  border-radius: 50px 15px;
+}
+.button{
+  width: 10px;
+}
+
+
+
